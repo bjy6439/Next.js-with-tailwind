@@ -6,6 +6,15 @@
   @apply bg-white dark:bg-violet-700;
 }
 
+.bg-box {
+  @apply bg-white dark:bg-slate-700;
+}
+
+.project-container {
+  @apply border-2 dark:border-none;
+  @apply border-black;
+}
+
 h1,
 h2,
 h3,
@@ -16,17 +25,22 @@ h6 {
 }
 
 footer {
-  @apply text-gray-600 dark:text-white;
+  @apply text-black dark:text-pink-300;
 }
 
 header {
-  @apply text-gray-600 dark:text-gray-700;
+  @apply text-black dark:text-pink-300;
 }
 
 p {
-  @apply text-slate-500 dark:text-slate-700;
+  @apply bg-violet-300 dark:bg-violet-700;
+  @apply text-black  dark:text-white;
 }
 
 a {
-  @apply text-gray-800 dark:text-white;
+  @apply text-black dark:text-pink-300;
+}
+
+span {
+  @apply text-black dark:text-pink-300;
 }

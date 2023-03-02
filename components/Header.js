@@ -22,7 +22,7 @@ const Header = () => {
           <h2 className="ml-3 text-xl">배경민 포트폴리오</h2>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <Link className="mr-5 hover:text-gray-900" href={"/"}>
+          <Link className="mr-5  hover:text-gray-900" href={"/"}>
             홈
           </Link>
           <Link className="mr-5 hover:text-gray-900" href={"/projects"}>
