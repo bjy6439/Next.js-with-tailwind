@@ -28,7 +28,6 @@ const Header = () => {
           <Link className="mr-5 hover:text-gray-900" href={"/projects"}>
             프로젝트
           </Link>
-          <a className="mr-5 hover:text-gray-900">연락하기</a>
         </nav>
         <ThemeChanger />
       </div>
